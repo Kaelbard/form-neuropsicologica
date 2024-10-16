@@ -118,7 +118,8 @@ export default function QuestionnaireForm() {
             </div>
             <div className="text-muted-foreground">
               Por favor, responda com sinceridade. E caso não lembre de algum
-              dos fatos perguntados, preencha com <b>"Não me recordo"</b>.
+              dos fatos perguntados, preencha com{" "}
+              <b>&quot;Não me recordo&quot;</b>.
             </div>
           </CardDescription>
         </CardHeader>
