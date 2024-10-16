@@ -106,7 +106,6 @@ export default function QuestionnaireForm() {
       <Card className="max-w-3xl mx-auto mt-6">
         <CardHeader>
           <CardTitle>Bem-vindo à Avaliação Neuropsicológica</CardTitle>
-
           <CardDescription>
             <div className="text-muted-foreground mt-2">
               Este questionário tem como objetivo entender aspectos do
