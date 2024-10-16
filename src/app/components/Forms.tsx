@@ -16,7 +16,6 @@ import {
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -109,19 +108,19 @@ export default function QuestionnaireForm() {
           <CardTitle>Bem-vindo à Avaliação Neuropsicológica</CardTitle>
 
           <CardDescription>
-            <p className="text-muted-foreground mt-2">
+            <div className="text-muted-foreground mt-2">
               Este questionário tem como objetivo entender aspectos do
               desenvolvimento e comportamento de indivíduos com base nas
               observações de seus familiares durante a sua infância.
-            </p>
-            <p className="text-muted-foreground">
+            </div>
+            <div className="text-muted-foreground">
               Suas respostas são essenciais para ajudar na avaliação
               neuropsicológica.
-            </p>
-            <p className="text-muted-foreground">
+            </div>
+            <div className="text-muted-foreground">
               Por favor, responda com sinceridade. E caso não lembre de algum
               dos fatos perguntados, preencha com <b>"Não me recordo"</b>.
-            </p>
+            </div>
           </CardDescription>
         </CardHeader>
         <CardFooter>
@@ -142,9 +141,9 @@ export default function QuestionnaireForm() {
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <p className="text-center text-muted-foreground">
+          <div className="text-center text-muted-foreground">
             Obrigado por preencher o questionário. Recebemos suas respostas.
-          </p>
+          </div>
         </CardContent>
         <CardFooter className="flex justify-center">
           <Button
