@@ -28,7 +28,7 @@ export async function POST(request: Request) {
 
   const mailOptions = {
     from: process.env.EMAIL,
-    to: "christianobarbossa@gmail.com",
+    to: process.env.EMAIL_SENDER,
     subject: "Respostas do Questionário",
     text: `
       Grau de Parentesco: ${parentesco}
